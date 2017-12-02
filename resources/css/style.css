@@ -3,7 +3,7 @@ body{
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: :0.9;
+  opacity: 0.9;
   text-align: center;
   margin: 0;
 }
@@ -69,7 +69,7 @@ header img{
 #featured{
   width: 1000px;
   margin: auto;
-  padding-top: 70px;
+  padding: 70px 0;
 }
 
 #locations{
@@ -82,22 +82,22 @@ header img{
   justify-content: center;
   padding: 5px;
 }
-.location_list{
+#location_list{
   display:flex;
   width: 980px;
   justify-content: space-between;
 }
 .location{
   background-color: black;
+  opacity: 1;
   width: 300px;
   height: 300px;
   justify-content: space-around;
 }
-.tea_imgs{
+#tea_imgs{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
-
 }
 .flex_column_center{
   display: flex;
