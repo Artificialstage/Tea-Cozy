@@ -104,6 +104,9 @@ header img{
   flex-direction: column;
   align-items: center;
 }
+.tea_img {
+  padding: 5;
+}
 .tea_img img{
   height: 200px;
   width: 300px;
